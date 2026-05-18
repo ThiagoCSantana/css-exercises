@@ -11,6 +11,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  padding: 32px;
 }
 
 /* do not edit this footer */
@@ -25,12 +26,26 @@ img {
   justify-content: center;
   background: #eee;
 }
-.fruits{
+.fruits {
   display: flex;
+  flex: auto;
   flex-flow: row nowrap;
   justify-content: center;
+  align-items: center;
+  gap: 52px;
 }
-.text{
-  display: flex;
-  margin-top: 10px;
+.one {
+  width: 200px;
+}
+
+.two {
+  width: 200px;
+}
+
+.three {
+  width: 200px;
+}
+
+.four {
+  width: 200px;
 }
